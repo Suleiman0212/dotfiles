@@ -1,0 +1,47 @@
+* {
+    font-family: "JetBrains Mono";
+    font-weight: bold;
+    font-size: 16px;
+}
+
+window {
+    margin: 0px;
+    border-radius: 1px;
+    background-color: #111111;
+    border: 3px solid #450a54;
+}
+
+#input {
+    margin: 5px;
+    border: none;
+    color: #cdd6f4;
+    background-color: #111111;
+}
+
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: #111111;
+}
+
+#outer-box {
+    margin: 5px;
+    border: none;
+}
+
+#scroll {
+    margin: 0px;
+    border: none;
+}
+
+#text {
+    margin: 5px;
+    border: none;
+    color: #cdd6f4;
+}
+
+#entry:selected {
+    background-color: #450a54;
+    border-radius: 1px;
+    border: 3px solid #450a54;
+}
