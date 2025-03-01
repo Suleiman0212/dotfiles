@@ -1,0 +1,24 @@
+[Added Associations]
+application/json=vim.desktop;nvim.desktop;
+application/x-docbook+xml=vim.desktop;nvim.desktop;
+application/x-yaml=vim.desktop;nvim.desktop;
+inode/directory=thunar.desktop;
+text/markdown=vim.desktop;nvim.desktop;
+text/plain=vim.desktop;nvim.desktop;
+text/x-cmake=vim.desktop;nvim.desktop;
+x-scheme-handler/geo=google-maps-geo-handler.desktop;
+text/rust=userapp-kitty --hold -e nvim %f\n-P3Q322.desktop;nvim.desktop;
+
+[Default Applications]
+application/json=vim.desktop;
+application/x-docbook+xml=vim.desktop;
+application/x-yaml=vim.desktop;
+inode/directory=thunar.desktop;
+text/markdown=vim.desktop;
+text/plain=vim.desktop;
+text/x-cmake=vim.desktop;
+x-scheme-handler/geo=google-maps-geo-handler.desktop;
+text/rust=userapp-kitty --hold -e nvim %f\n-P3Q322.desktop
+
+[Removed Associations]
+text/rust=userapp-nvim-MWLU22.desktop;

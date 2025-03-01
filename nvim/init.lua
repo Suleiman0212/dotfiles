@@ -19,12 +19,12 @@ vim.api.nvim_create_autocmd("CursorHold", {
   end,
 })
 
-vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, {
-  pattern = "*.wgsl",
-  callback = function()
-    vim.bo.filetype = "wgsl"
-  end,
-})
-
-local lspconfig = require("lspconfig")
-lspconfig.wgsl_analyzer.setup({})
+-- vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, {
+--   pattern = "*.wgsl",
+--   callback = function()
+--     vim.bo.filetype = "wgsl"
+--   end,
+-- })
+--
+-- local lspconfig = require("lspconfig")
+-- lspconfig.wgsl_analyzer.setup({})

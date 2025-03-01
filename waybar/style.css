@@ -1,7 +1,7 @@
 
 /* Общие настройки для Waybar */
 * {
-    font-family: "jetbrains mono nerd font", monospace;
+    font-family: "jetbrains mono", monospace;
     font-size: 20px; /* Размер шрифта */
 }
 window#waybar {
@@ -40,7 +40,7 @@ window#waybar.hidden {
 #mpd {
     background-color: #450a54; /* #9218fb; Единый цвет фона */
     color: #ffffff; /* Единый цвет текста */
-    border-radius: 1px; /* Скругленные углы для элементов */
+    border-radius: 4px; /* Скругленные углы для элементов */
     padding: 0px 10px; /* Внутренние отступы */
     margin: 5px; /* Отступы между элементами */
     border: 3px solid #450a54;
@@ -70,7 +70,6 @@ button:hover {
 /* Стиль для активной кнопки */
 #workspaces button.active {
     background-color: #9218fb;
-    border-radius: 1px;
     margin: 0px;
 }
 

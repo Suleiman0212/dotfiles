@@ -194,7 +194,7 @@
   "pulseaudio": {
     // "scroll-step": 1, // %, can be a float
     "format": "{volume}% VOL",
-    "format-muted": " {format_source}",
+    "format-muted": "{volume}% MUTED",
     "format-icons": {
       "headphone": "",
       "hands-free": "",
